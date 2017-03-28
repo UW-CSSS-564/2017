@@ -49,7 +49,7 @@ classes:
       type: lab
       date: '2017-04-06'
       reading_before:
-     reading_after: []
+      reading_after: []
       in_class: []
   - week: 3
     meetings:
@@ -57,7 +57,7 @@ classes:
       end: "2017-04-11 15:50"
       type: class
       date: '2017-04-11'
-      reading_before: []
+      reading_before:
       - "\"Multivariate Linear Models\", *Statistical Rethinking*, Ch 5."
       - "\"Interactions\", *Statistical Rethinking*, Ch 7."
       reading_after: []
