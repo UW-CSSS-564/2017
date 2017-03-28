@@ -2,4 +2,71 @@
 title: "CS&SS/STAT 564 Schedule"
 ---
 
-TODO
+```{r include=FALSE}
+library("yaml")
+library("htmltools")
+library("purrr")
+library("stringr")
+library("lubridate")
+
+localdata <- yaml.load_file("data.yml")
+render_week <- function(x) {
+  w <- x[["week"]]
+  classes <-  map(x[["meetings"]], render_class)
+  hdr <- tagList(tags$hr(), tags$h2(str_c("Week ", w)))
+  div(id = str_c("week-", w), hdr, classes)
+}
+
+render_reading <- function(x) {
+  tags$li(HTML(commonmark::markdown_html(x)))
+}
+
+render_readings_before <- function(x) {
+  readings <- x[["reading_before"]]
+  if (length(readings) > 0) {
+    tags$p(
+      str_c("Readings before class:"),
+      tags$ul(map(readings, render_reading))
+    )    
+  } else ""
+}
+
+render_readings_after <- function(x) {
+  readings <- x[["reading_after"]]
+  if (length(readings) > 0) {
+    tags$p(
+      str_c("Optional readings after class:"),
+      tags$ul(map(readings, render_reading))
+    )
+  } else ""
+}
+
+render_topics <- function(x) {
+  topics <- x[["topics"]]
+  if (length(topics)) {
+    tags$p(tags$strong("Topics:"), HTML(commonmark::markdown_html(topics)))
+  }
+}
+
+render_class <- function(x) {
+  start <- ymd_hm(x[["start"]])
+  end <- ymd_hm(x[["end"]])
+  .header <- h3(str_c(str_to_title(x[["type"]]), ": "),
+                tags$time(format(start, "%A, %B %d, %Y"), 
+                          tags$small(format(start, "%H:%M"),
+                                     HTML("&ndash;"),
+                                     format(end, "%H:%M")),
+                          datetime = format(start, "%Y-%m-%d %H:%M")))
+  div(
+    id = str_c(x[["type"]], "-", format(start, "%Y-%m-%d")),
+    .header,
+    render_topics(x),
+    render_readings_before(x),
+    render_readings_after(x)
+  )
+}
+```
+
+```{r echo = FALSE}
+tagList(map(localdata[["classes"]], render_week))
+```

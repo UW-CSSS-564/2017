@@ -8,7 +8,7 @@ navbar:
       href: "schedule.html"
 output:
   html_document:
-    theme: cosmo
+    theme: simplex
     hightlight: textmate
     includes:
       in_header: "include/in_header.html"
