@@ -59,17 +59,18 @@ Students should be familiar or proficient with the R programming language.
 
 <table class = "table table-striped">
 <tr>
+<td>Jeff</td>
+<td>M</td>
+<td>11:00 am&ndash;1:00 pm</td>
+<td><a href="https://www.washington.edu/maps/?smi">SMI 221B</a></td>
+</tr>
+<tr>
 <td>Sheridan</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr>
-<td>Jeff</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
+
 </table>
 
 Instructions for Jeff's office hours:
@@ -88,12 +89,37 @@ You should have received an invitation to join this team, if not contact us to r
 
 # Evaluation
 
+Evaluation will consist of problem sets and participation.
+
+- Problem Sets: 75%
+    - Solutions: 25%
+    - Peer Evaluation: 25%
+    - Self-correcatio: 25%
+- Participation: 25%
+
+#### Problem Sets
+
+These will be assigned on Tuesday and due the following Tuesday prior to class. They will consist of both applied and theoretical questions. Evaluation of the problem set will consist of three components. 
+
+1. **Solutions:** The initial answets to problem set will be graded as "excellent", "satisfactory", or "unsatisfactory".
+
+2. **Peer Evaluations:** Each student will be randomly assigned two other students assignments to grade. The peer evaluations themselves will receive grades of "satisfactory" or "unsatisfactory".
+
+3. **Corrections:** After receiving the solution key, students must correct their problem sets. These corrections will take the form of an updated assignment which (1) indicates where mistakes, (2) indicates the correct answer, (3) and demonstrates an understanding of how these mistakes were made and how those mistakes differ from the correct answer. 
+
+#### Participation 
+
+Students must actively participate in all parts of the course. 
+This will consist of pre-lecture assignments in which students will be asked to contribute questions or content, as well as participation on Slack.
+The details of how this will be evaluated will evolve over the course.
 
 
 # Texts
 
 - McElreath. 2015. [Statistical Rethking](https://www.crcpress.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-Stan/McElreath/p/book/9781482253443). The [CRC page](https://www.crcpress.com/Statistical-Rethinking-A-Bayesian-Course-with-Examples-in-R-and-Stan/McElreath/p/book/9781482253443) has an eBook, though [Amazon](https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman/dp/1482253445) does not.
 - (Optional) Gelman, Andrew, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtrai, and Donald B. Rubin. 2013. [Bayesian Data Analysis](https://www.amazon.com/Bayesian-Analysis-Chapman-Statistical-Science/dp/1439840954/ref=dp_ob_title_bk). 3rd ed. The 3rd edition is significantly changed from the 2nd edition. This provides a good reference for concepts and models beyond what is covered in *Statistical Rethinking*
+
+*BDA3* is is optional, but will go into more depth than *Stat Rethinking* and will be used if we get through the material in *Stat Rethinking* quicker than expected.
 
 Additional readings are on the [schedule](schedule.html).
 
