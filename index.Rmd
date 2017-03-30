@@ -57,6 +57,8 @@ Students should be familiar or proficient with the R programming language.
 
 #### Office Hours
 
+<!-- commit -->
+
 <table class = "table table-striped">
 <tr>
 <td>Jeff</td>
