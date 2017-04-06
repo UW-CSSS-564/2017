@@ -2,6 +2,8 @@
 title: "CS&SS/STAT 564 Schedule"
 ---
 
+# Assignments
+
 ```{r include=FALSE}
 library("yaml")
 library("htmltools")
@@ -65,7 +67,34 @@ render_class <- function(x) {
     render_readings_after(x)
   )
 }
+
+render_assignment <- function(x) {
+  tags$td(
+    tags$tr(tags$a(href = x[["url"]], x[["name"]])),
+    tags$tr(HTML(format(ymd_hm(x[["due-date"]]), "%a, %b %d, %Y %H:%M")))
+  )
+}
+
+render_assignments <- function(x) {
+   tags$table(
+     tags$th(
+       tags$tr("Assignment"),
+       tags$tr("Due date")
+     ),
+     map(x, render_assignment)
+   )
+}
+
 ```
+
+# Assignments
+
+```{r echo=FALSE}
+render_assignments(localdata[["assignments"]])
+```
+
+
+# Readings
 
 ```{r echo = FALSE}
 tagList(map(localdata[["classes"]], render_week))
