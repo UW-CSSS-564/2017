@@ -1,0 +1,85 @@
+# Submitting Assignments
+
+Submissions of all assignments should include both an R Markdown and a compiled HTML or PDF files.
+
+# Peer Review
+
+Each student will be assigned to review two assignments.
+
+## Instructions
+
+These reviews will be submitted as comments on the pull request.
+The comments should address the solution, code, and presentation:
+
+- Solutions:
+
+    - A key will be provided.
+    - The reviewer should check whether the solutions correct.
+    - Note incorrect or incomplete solutions, along with a suggestion of what they can do to   fix it.
+        You don't need to solve it for them, but point out the problem, and point them them in the right direction.
+    - Note correct solutions.
+    - If you are unsure about a solution, note it clearly, and ask the instructors for assistance, or the author for clarification.
+
+- Code:
+
+    - Check that the code runs. It should run without editing, and produces the results presented.
+    - If any errors are encountered: include the exact error message as a code block in comments.
+    - The code is clearly written, formatted, and easy to follow.
+    - There should not be errors or warning in the code
+
+- Presentation:
+
+    - Is the document clearly written, well formatted, such that you as a reviewer
+        can follow and understand the solutions.
+
+
+## How Peer Reviews will be evaluated
+
+It’s binary. Each peer review will be deemed “good” or “needs more”.
+Each review you do will give you 1 point if is "good" and 0 points if it "needs more".
+Those will be totaled over all assignments to form your peer review mark.
+
+How to give good comments:
+
+- Address each question
+- Give thoughtful, constructive and considerate comments.
+- Be specific and concise.
+- Try to learn something new and, if you succeed, point that out.
+- If you can’t find anything to praise or that you found helpful, then at least offer some suggestions in a kind way.
+
+Features of "needs more":
+
+- You do not address each question.
+- Your review is mean.
+- You can’t find anything to praise/learn and yet you don’t offer any suggestions either.
+
+# Assignment Workflow
+
+- Submission:
+    - Open pull request
+    - Add labels: "assignment" and "needs comments"
+- Reviews:
+    - Assigned to the pull request via GitHub
+    - Submit reviews as comments on the pull request
+    - After 2nd comment complete:
+        - change label to "needs grading"
+        - assign to TA
+- Corrections
+    - Assign to student
+    - After assignment is corrected:
+        - change assignee to TA
+        - change label to "corrected"
+    - After TA graded: close Pull Request
+
+Should we use labels? These maybe useful?
+
+- needs review:
+- needs grading:
+- needs corrections:
+- corrections complete
+
+# References
+
+Much of the section on suggestions for peer grading is derived from
+http://stat545.com/peer-review02_peer-evaluation-guidelines.html,
+licensed under the [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
