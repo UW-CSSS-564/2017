@@ -10,7 +10,7 @@
 
 # Prerequisites
 
-Students should have have a basic understanding or probability, classical statistics and hypothesis testing, linear regression, and maximum likelihood estimation (MLE).
+Students should have have a basic understanding of probability, classical statistics and hypothesis testing, linear regression, and maximum likelihood estimation (MLE).
 Students should be familiar or proficient with the R programming language.
 
 # Logistics
@@ -68,9 +68,9 @@ Students should be familiar or proficient with the R programming language.
 </tr>
 <tr>
 <td>Sheridan</td>
-<td></td>
-<td></td>
-<td></td>
+<td>M 3:30-4:20</td>
+<td>F 2:30-3:20</td>
+<td><a href="https://www.washington.edu/maps/?cmu">CMU B023</a></td>
 </tr>
 
 </table>
@@ -86,7 +86,7 @@ These instructions will ensure that our time is efficiently spent and I can be o
 #### Communication
 
 In this course we will be using [Slack](https://slack.com/) for online class discussion. You will not be required to post, but the system is designed to get you help quickly and efficiently from classmates, and the instructors.
-Rather than emailing questions to the instructors, post your questions to [https://uwcsss564.slack.com/](Slack).
+Rather than emailing questions to the instructors, post your questions to the course [Slack](https://uwcsss564.slack.com/).
 You should have received an invitation to join this team, if not contact us to receive an invite.
 
 # Evaluation
