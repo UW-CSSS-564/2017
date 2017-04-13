@@ -71,7 +71,7 @@ classes:
       type: class
       date: '2017-04-13'
       reading_before:
-      - "\"Introduction to Multiparameter Models\", *BDA*, Ch 3."
+        - "\"Introduction to Multiparameter Models\", *BDA*, Ch 3."
       - "\"Introduction to Regression Models\", *BDA*, Ch 14."
       reading_after: []
       in_class: []
