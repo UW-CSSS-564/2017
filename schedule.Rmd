@@ -43,6 +43,21 @@ render_readings_after <- function(x) {
   } else ""
 }
 
+render_in_class_item <- function(x) {
+  tags$li(HTML(commonmark::markdown_html(x)))
+}
+
+render_in_class_items <- function(x) {
+  readings <- x[["in_class"]]
+  if (length(readings) > 0) {
+    tags$p(
+      str_c("In class:"),
+      tags$ul(map(readings, render_in_class_item))
+    )
+  } else ""
+}
+
+
 render_topics <- function(x) {
   topics <- x[["topics"]]
   if (length(topics)) {
@@ -64,7 +79,8 @@ render_class <- function(x) {
     .header,
     render_topics(x),
     render_readings_before(x),
-    render_readings_after(x)
+    render_readings_after(x),
+    render_in_class_items(x)
   )
 }
 

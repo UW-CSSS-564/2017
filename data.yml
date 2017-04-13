@@ -70,11 +70,10 @@ classes:
       end: "2017-04-13 15:50"
       type: class
       date: '2017-04-13'
-      reading_before:
-        - "\"Introduction to Multiparameter Models\", *BDA*, Ch 3."
-      - "\"Introduction to Regression Models\", *BDA*, Ch 14."
+      reading_before: []
       reading_after: []
-      in_class: []
+      in_class:
+        - "[slides on Stan and HMC](slides/2017-04-13.html)"
     - start: "2017-04-13 13:30"
       end: "2017-04-13 14:20"
       type: lab
