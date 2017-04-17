@@ -60,7 +60,7 @@ Features of "needs more":
     - Open pull request
 - Reviews:
     - Assigned to the pull request via GitHub
-    - How to download their files so you can review them:
+    - **How to download their files so you can review them:**
         - click the pull request
         - click "files changed"
         - click "View" on the first file you see
