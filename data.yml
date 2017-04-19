@@ -2,6 +2,9 @@ assignments:
   - name: "Assignment 1"
     url: "https://github.com/UW-CSSS-564/CSSS5642017-assignment-1"
     due-date: "2017-04-13 13:30"
+  - name: "Assignment 2"
+    url: "https://github.com/UW-CSSS-564/assignment-2"
+    due-date: "2017-04-25 13:30"
 classes:
   - week: 1
     meetings:
@@ -87,8 +90,7 @@ classes:
       end: "2017-04-18 15:50"
       type: class
       date: '2017-04-18'
-      reading_before:
-        - "\"Overfitting, Regularization, and Information Criteria\", *Statistical Rethinking*, Ch 6."
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-04-20 14:30"
@@ -96,9 +98,16 @@ classes:
       type: class
       date: '2017-04-20'
       reading_before:
-      - "\"Model checking\", *Statistical Rethinking*, Ch 6."
-      - "\"Evaluating, comparing, and expanding models\", *Statistical Rethinking*, Ch 7."
-      reading_after: []
+      - >
+          [RStan: the R interface to Stan](https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html)
+      - >
+          "Introduction" in [Stan Modeling Language User’s Guide and Reference Manual](https://github.com/stan-dev/stan/releases/download/v2.14.0/stan-reference-2.14.0.pdf)
+      - >
+          "Regression Models" in [Stan Modeling Language User’s Guide and Reference Manual](https://github.com/stan-dev/stan/releases/download/v2.14.0/stan-reference-2.14.0.pdf)
+      - "\"Markov Chain Monte Carlo\", *Statistical Rethinking*, Ch 8."
+      reading_after:
+      - >
+          [Accessing the contents of a stanfit object](https://cran.r-project.org/web/packages/rstan/vignettes/stanfit-objects.html)
       in_class: []
     - start: "2017-04-20 13:30"
       end: "2017-04-20 14:20"
@@ -121,11 +130,7 @@ classes:
       end: "2017-04-27 15:50"
       type: class
       date: '2017-04-27'
-      reading_before:
-      - "\"Introduction to Bayeisan Computation\", *BDA*, Ch 10."
-      - "\"Basics of Markov Chain Simulation\", *BDA*, Ch 11."
-      - "\"Generalized Linear Models\", *BDA*, Ch 12."
-      - "\"Modal and distributional approximations\", *BDA*, Ch 13."
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-04-27 13:30"
