@@ -86,7 +86,7 @@ These instructions will ensure that our time is efficiently spent and I can be o
 #### Communication
 
 In this course we will be using [Slack](https://slack.com/) for online class discussion. You will not be required to post, but the system is designed to get you help quickly and efficiently from classmates, and the instructors.
-Rather than emailing questions to the instructors, post your questions to the course [Slack](https://uwcsss564.slack.com/).
+Rather than emailing questions to the instructors, post your questions to the [course Slack](https://uwcsss564.slack.com/).
 You should have received an invitation to join this team, if not contact us to receive an invite.
 
 # Evaluation
@@ -96,18 +96,18 @@ Evaluation will consist of problem sets and participation.
 - Problem Sets: 75%
     - Solutions: 25%
     - Peer Evaluation: 25%
-    - Self-correcatio: 25%
+    - Self-Correction: 25%
 - Participation: 25%
 
 #### Problem Sets
 
 These will be assigned on Tuesday and due the following Tuesday prior to class. They will consist of both applied and theoretical questions. Evaluation of the problem set will consist of three components. 
 
-1. **Solutions:** The initial answets to problem set will be graded as "excellent", "satisfactory", or "unsatisfactory".
+1. **Solutions:** The initial answers to problem sets will be graded as "excellent", "satisfactory", or "unsatisfactory."
 
-2. **Peer Evaluations:** Each student will be randomly assigned two other students assignments to grade. The peer evaluations themselves will receive grades of "satisfactory" or "unsatisfactory".
+2. **Peer Evaluations:** Each student will be randomly assigned two other students' assignments to grade. The peer evaluations themselves will receive grades of "satisfactory" or "unsatisfactory".
 
-3. **Corrections:** After receiving the solution key, students must correct their problem sets. These corrections will take the form of an updated assignment which (1) indicates where mistakes, (2) indicates the correct answer, (3) and demonstrates an understanding of how these mistakes were made and how those mistakes differ from the correct answer. 
+3. **Corrections:** After receiving the solution key and comments on their initial submission, students must correct their problem sets. These corrections will take the form of an updated assignment which (1) indicates where mistakes were made, (2) indicates the correct answer, (3) and demonstrates an understanding of how these mistakes were made and how those mistakes differ from the correct answer. 
 
 #### Participation 
 
