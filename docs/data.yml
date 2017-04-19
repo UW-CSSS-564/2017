@@ -2,6 +2,9 @@ assignments:
   - name: "Assignment 1"
     url: "https://github.com/UW-CSSS-564/CSSS5642017-assignment-1"
     due-date: "2017-04-13 13:30"
+  - name: "Assignment 2"
+    url: "https://github.com/UW-CSSS-564/assignment-2"
+    due-date: "2017-04-25 13:30"
 classes:
   - week: 1
     meetings:
