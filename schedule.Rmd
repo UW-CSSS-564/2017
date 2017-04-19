@@ -23,6 +23,10 @@ render_reading <- function(x) {
   tags$li(HTML(commonmark::markdown_html(x)))
 }
 
+render_notes <- function(x) {
+  tags$p(HTML(commonmark::markdown_html(x[["notes"]])))
+}
+
 render_readings_before <- function(x) {
   readings <- x[["reading_before"]]
   if (length(readings) > 0) {
@@ -78,6 +82,7 @@ render_class <- function(x) {
     id = str_c(x[["type"]], "-", format(start, "%Y-%m-%d")),
     .header,
     render_topics(x),
+    render_notes(x),    
     render_readings_before(x),
     render_readings_after(x),
     render_in_class_items(x)
