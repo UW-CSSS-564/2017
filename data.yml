@@ -122,6 +122,8 @@ classes:
       reading_after:
       - >
           [Accessing the contents of a stanfit object](https://cran.r-project.org/web/packages/rstan/vignettes/stanfit-objects.html)
+      - >
+          [Lab code](https://github.com/UW-CSSS-564/CSSS564-2017-lab)
     - start: "2017-04-20 13:30"
       end: "2017-04-20 14:20"
       type: lab

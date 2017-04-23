@@ -137,3 +137,5 @@ Both **R** and **Stan** are free and open-source.
 I expect that students will already be familiar with **R**, so class time will not be spent introducing it in order to familiarize students with **Stan**.
 
 Though not necessary, you are encouraged to use [RStudio](https://www.rstudio.com/products/rstudio/#Desktop) Desktop integrated development environment (IDE) for R.
+
+[Code from the lab sessions](https://github.com/UW-CSSS-564/CSSS564-2017-lab)
