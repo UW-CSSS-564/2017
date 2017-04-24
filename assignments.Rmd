@@ -17,7 +17,6 @@ The comments should address the solution, code, and presentation:
     - The reviewer should check whether the reviewee's solutions are correct.
     - Note incorrect or incomplete solutions, along with a suggestion of what the reviewee can do to fix it.
       You don't need to solve it for them, but point out the problem, and point them in the right direction.
-    - Briefly note correct solutions.
     - If you are unsure about a solution, note it clearly, and ask the instructors for assistance or the author for clarification.
 
 - Code:
@@ -42,7 +41,7 @@ Those will be totaled over all assignments to form your peer review mark.
 
 How to give good comments:
 
-- Address each question
+- Address questions that were answered incorrectly, unclearly, or particularly well.
 - Give thoughtful, constructive and considerate comments.
 - Be specific and concise.
 - Try to learn something new and, if you succeed, point that out.
