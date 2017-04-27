@@ -2,6 +2,7 @@
 
 Submissions of all assignments should include both an R Markdown and a compiled HTML or PDF files.
 
+
 # Peer Review
 
 Each student will be assigned to review two assignments.
@@ -13,10 +14,8 @@ The comments should address the solution, code, and presentation:
 
 - Solutions:
 
-    - A key will be provided.
-    - The reviewer should check whether the solutions correct.
-    - Note incorrect or incomplete solutions, along with a suggestion of what they can do to   fix it.
-        You don't need to solve it for them, but point out the problem, and point them them in the right direction.
+    - The reviewer should check whether the solutions are correct. A key will be provided.
+    - The reviewer should note incorrect or incomplete solutions, along with a suggestion of what they can do to fix it. The reviewer does not need to fix the problems, but they should provide indications of where the solution
     - Note correct solutions.
     - If you are unsure about a solution, note it clearly, and ask the instructors for assistance, or the author for clarification.
 
@@ -71,15 +70,15 @@ Features of "needs more":
         - change label to "corrected"
     - After TA graded: close Pull Request
 
-Should we use labels? These maybe useful?
-
-- needs review:
-- needs grading:
-- needs corrections:
-- corrections complete
 
 # References
 
 Much of the section on suggestions for peer grading is derived from
 http://stat545.com/peer-review02_peer-evaluation-guidelines.html,
 licensed under the [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
+
+
+```{r}
+
+```
+
