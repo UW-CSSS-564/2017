@@ -54,7 +54,7 @@ render_class <- function(x) {
   start <- ymd_hm(x[["start"]])
   end <- ymd_hm(x[["end"]])
   .header <- h3(str_c(str_to_title(x[["type"]]), ": "),
-                tags$time(format(start, "%A, %B %d, %Y"), 
+                tags$time(format(start, "%A, %B %d, %Y"),
                           tags$small(format(start, "%H:%M"),
                                      HTML("&ndash;"),
                                      format(end, "%H:%M")),
@@ -88,6 +88,8 @@ render_assignments <- function(x) {
 ```
 
 # Assignments
+
+Follow the instructions for assignments [here](assignments.html)
 
 ```{r echo=FALSE}
 render_assignments(localdata[["assignments"]])
