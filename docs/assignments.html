@@ -182,6 +182,9 @@ $(document).ready(function () {
 <li>
   <a href="schedule.html">Schedule</a>
 </li>
+<li>
+  <a href="assignments.html">Assignments</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -219,14 +222,14 @@ $(document).ready(function () {
 </ul></li>
 <li><p>Code:</p>
 <ul>
-<li>Check that the code runs. It should run without editing, and produces the results presented.</li>
+<li>Check that the code runs/compiles; in this class that means “does it knit?”. It should run without editing, and produce the results presented.</li>
 <li>If any errors are encountered: include the exact error message as a code block in comments.</li>
-<li>The code is clearly written, formatted, and easy to follow.</li>
-<li>There should not be errors or warning in the code</li>
+<li>The code should be clearly written, formatted, and easy to follow.</li>
+<li>There should not be errors or warnings in the code.</li>
 </ul></li>
 <li><p>Presentation:</p>
 <ul>
-<li>Is the document clearly written, well formatted, such that you as a reviewer can follow and understand the solutions.</li>
+<li>Is the document clearly written, well formatted, such that you as a reviewer can follow and understand the solutions?</li>
 </ul></li>
 </ul>
 </div>
@@ -235,7 +238,7 @@ $(document).ready(function () {
 <p>It’s binary. Each peer review will be deemed “good” or “needs more”. Each review you do will give you 1 point if is “good” and 0 points if it “needs more”. Those will be totaled over all assignments to form your peer review mark.</p>
 <p>How to give good comments:</p>
 <ul>
-<li>Address each question</li>
+<li>Address questions that were answered incorrectly, unclearly, or particularly well.</li>
 <li>Give thoughtful, constructive and considerate comments.</li>
 <li>Be specific and concise.</li>
 <li>Try to learn something new and, if you succeed, point that out.</li>
@@ -255,11 +258,18 @@ $(document).ready(function () {
 <li>Submission:
 <ul>
 <li>Open pull request</li>
-<li>Add labels: “assignment” and “needs comments”</li>
 </ul></li>
 <li>Reviews:
 <ul>
 <li>Assigned to the pull request via GitHub</li>
+<li><strong>How to download their files so you can review them:</strong>
+<ul>
+<li>click the pull request</li>
+<li>click “files changed”</li>
+<li>click “View” on the first file you see</li>
+<li>click on their assignment repository after “[their username] /” near the top left of the screen</li>
+<li>click “clone or download” and download the zip</li>
+</ul></li>
 <li>Submit reviews as comments on the pull request</li>
 <li>After 2nd comment complete:
 <ul>
@@ -269,7 +279,8 @@ $(document).ready(function () {
 </ul></li>
 <li>Corrections
 <ul>
-<li>Assign to student</li>
+<li>TA will assign the student to their own pull request</li>
+<li>Student can simply make corrections locally (on their laptop) and then push them to GitHub. GitHub will handle the rest.</li>
 <li>After assignment is corrected:
 <ul>
 <li>change assignee to TA</li>

@@ -1,7 +1,10 @@
 assignments:
   - name: "Assignment 1"
     url: "https://github.com/UW-CSSS-564/CSSS5642017-assignment-1"
-    due-date: "2017-04-12 17:00"
+    due-date: "2017-04-13 13:30"
+  - name: "Assignment 2"
+    url: "https://github.com/UW-CSSS-564/assignment-2"
+    due-date: "2017-04-25 13:30"
 classes:
   - week: 1
     meetings:
@@ -70,11 +73,10 @@ classes:
       end: "2017-04-13 15:50"
       type: class
       date: '2017-04-13'
-      reading_before:
-      - "\"Introduction to Multiparameter Models\", *BDA*, Ch 3."
-      - "\"Introduction to Regression Models\", *BDA*, Ch 14."
+      reading_before: []
       reading_after: []
-      in_class: []
+      in_class:
+        - "[slides on Stan and HMC](slides/2017-04-13.html)"
     - start: "2017-04-13 13:30"
       end: "2017-04-13 14:20"
       type: lab
@@ -88,19 +90,40 @@ classes:
       end: "2017-04-18 15:50"
       type: class
       date: '2017-04-18'
-      reading_before:
-        - "\"Overfitting, Regularization, and Information Criteria\", *Statistical Rethinking*, Ch 6."
+      reading_before: []
       reading_after: []
-      in_class: []
+      in_class:
+      - >
+          Worked through code in an example based on [Introduction to Stan with Linear Regression](https://jrnold.github.io/bayesian_notes/introduction-to-stan-and-linear-regression.html)
     - start: "2017-04-20 14:30"
       end: "2017-04-20 15:50"
       type: class
       date: '2017-04-20'
+      notes: >
+        The *Statistical Rethinking* chapter provides some of the
+        theoretical background on MCMC sampling. The various readings
+        about Stan and **rstan** all provide some overview and instructions for
+        Stan models, though all assume at various parts knowledge that I don't expect
+        all (if any) students to have. They are often written for someone who is
+        already familiar with Bayesian statistics and software. The best
+        strategy is to scan them, and if there are parts that assume knowledge you
+        aren't familiar with, don't worry about it. Reading the introduction to the *Stan Documentation*
+        is as much about getting familiar with what's in this documentation as anything else.
+        The Stan Modeling Language Documentation includes both extensive documentation
+        about the language and functions and many example models.
       reading_before:
-      - "\"Model checking\", *Statistical Rethinking*, Ch 6."
-      - "\"Evaluating, comparing, and expanding models\", *Statistical Rethinking*, Ch 7."
-      reading_after: []
-      in_class: []
+      - >
+          [RStan: the R interface to Stan](https://cran.r-project.org/web/packages/rstan/vignettes/rstan.html)
+      - >
+          "Introduction" in [Stan Modeling Language User’s Guide and Reference Manual](https://github.com/stan-dev/stan/releases/download/v2.14.0/stan-reference-2.14.0.pdf)
+      - >
+          "Regression Models" in [Stan Modeling Language User’s Guide and Reference Manual](https://github.com/stan-dev/stan/releases/download/v2.14.0/stan-reference-2.14.0.pdf)
+      - "\"Markov Chain Monte Carlo\", *Statistical Rethinking*, Ch 8."
+      reading_after:
+      - >
+          [Accessing the contents of a stanfit object](https://cran.r-project.org/web/packages/rstan/vignettes/stanfit-objects.html)
+      - >
+          [Lab code](https://github.com/UW-CSSS-564/CSSS564-2017-lab)
     - start: "2017-04-20 13:30"
       end: "2017-04-20 14:20"
       type: lab

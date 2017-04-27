@@ -21,15 +21,16 @@ The comments should address the solution, code, and presentation:
 
 - Code:
 
-    - Check that the code runs. It should run without editing, and produces the results presented.
+    - Check that the code runs/compiles; in this class that means "does it knit?". It should run without editing, and produce the results
+      presented.
     - If any errors are encountered: include the exact error message as a code block in comments.
-    - The code is clearly written, formatted, and easy to follow.
-    - There should not be errors or warning in the code
+    - The code should be clearly written, formatted, and easy to follow.
+    - There should not be errors or warnings in the code.
 
 - Presentation:
 
     - Is the document clearly written, well formatted, such that you as a reviewer
-        can follow and understand the solutions.
+        can follow and understand the solutions?
 
 
 ## How Peer Reviews will be evaluated
@@ -40,7 +41,7 @@ Those will be totaled over all assignments to form your peer review mark.
 
 How to give good comments:
 
-- Address each question
+- Address questions that were answered incorrectly, unclearly, or particularly well.
 - Give thoughtful, constructive and considerate comments.
 - Be specific and concise.
 - Try to learn something new and, if you succeed, point that out.
@@ -56,15 +57,21 @@ Features of "needs more":
 
 - Submission:
     - Open pull request
-    - Add labels: "assignment" and "needs comments"
 - Reviews:
     - Assigned to the pull request via GitHub
+    - **How to download their files so you can review them:**
+        - click the pull request
+        - click "files changed"
+        - click "View" on the first file you see
+        - click on their assignment repository after "[their username] /" near the top left of the screen
+        - click "clone or download" and download the zip
     - Submit reviews as comments on the pull request
     - After 2nd comment complete:
         - change label to "needs grading"
         - assign to TA
 - Corrections
-    - Assign to student
+    - TA will assign the student to their own pull request
+    - Student can simply make corrections locally (on their laptop) and then push them to GitHub. GitHub will handle the rest.
     - After assignment is corrected:
         - change assignee to TA
         - change label to "corrected"
@@ -81,4 +88,3 @@ licensed under the [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0
 ```{r}
 
 ```
-
