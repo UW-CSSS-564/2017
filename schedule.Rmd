@@ -1,8 +1,7 @@
 ---
 title: "CS&SS/STAT 564 Schedule"
+bibliography: _submodules/bayesian_notes/bayes.bib
 ---
-
-# Assignments
 
 ```{r include=FALSE}
 library("yaml")
@@ -90,20 +89,21 @@ render_class <- function(x) {
 }
 
 render_assignment <- function(x) {
-  tags$td(
-    tags$tr(tags$a(href = x[["url"]], x[["name"]])),
-    tags$tr(HTML(format(ymd_hm(x[["due-date"]]), "%a, %b %d, %Y %H:%M")))
+  tags$tr(
+    tags$td(tags$a(href = x[["url"]], x[["name"]])),
+    tags$td(HTML(format(ymd_hm(x[["due-date"]]), "%a, %b %d, %Y %H:%M")))
   )
 }
 
 render_assignments <- function(x) {
-   tags$table(
-     tags$th(
-       tags$tr("Assignment"),
-       tags$tr("Due date")
+   tags$div(tags$p(tags$table(
+     class = "table table-striped",
+     tags$tr(
+       tags$th("Assignment"),
+       tags$th("Due date")
      ),
      map(x, render_assignment)
-   )
+   )))
 }
 
 ```
@@ -112,9 +112,11 @@ render_assignments <- function(x) {
 
 Follow the instructions for assignments [here](assignments.html)
 
+
 ```{r echo=FALSE}
 render_assignments(localdata[["assignments"]])
 ```
+
 
 
 # Readings
