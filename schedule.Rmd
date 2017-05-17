@@ -1,8 +1,7 @@
 ---
 title: "CS&SS/STAT 564 Schedule"
+bibliography: _submodules/bayesian_notes/bayes.bib
 ---
-
-# Assignments
 
 ```{r include=FALSE}
 library("yaml")
@@ -73,7 +72,7 @@ render_class <- function(x) {
   start <- ymd_hm(x[["start"]])
   end <- ymd_hm(x[["end"]])
   .header <- h3(str_c(str_to_title(x[["type"]]), ": "),
-                tags$time(format(start, "%A, %B %d, %Y"), 
+                tags$time(format(start, "%A, %B %d, %Y"),
                           tags$small(format(start, "%H:%M"),
                                      HTML("&ndash;"),
                                      format(end, "%H:%M")),
@@ -89,30 +88,43 @@ render_class <- function(x) {
   )
 }
 
+format_date <- function(x) {
+  
+}
+
 render_assignment <- function(x) {
-  tags$td(
-    tags$tr(tags$a(href = x[["url"]], x[["name"]])),
-    tags$tr(HTML(format(ymd_hm(x[["due-date"]]), "%a, %b %d, %Y %H:%M")))
+  tags$tr(
+    tags$td(tags$a(href = x[["url"]], x[["name"]])),
+    tags$td(HTML(format(ymd_hm(x[["due-date"]]), "%a, %b %d, %Y %H:%M"))),
+    tags$td(HTML(format(ymd_hm(x[["peer_review"]]), "%a, %b %d, %Y %H:%M"))),
+    tags$td(HTML(format(ymd_hm(x[["self_corrections"]]), "%a, %b %d, %Y %H:%M")))    
   )
 }
 
 render_assignments <- function(x) {
-   tags$table(
-     tags$th(
-       tags$tr("Assignment"),
-       tags$tr("Due date")
+   tags$div(tags$p(tags$table(
+     class = "table table-striped",
+     tags$tr(
+       tags$th("Assignment"),
+       tags$th("Due date"),
+       tags$th("Peer review"),
+       tags$th("Self corrections")       
      ),
      map(x, render_assignment)
-   )
+   )))
 }
 
 ```
 
 # Assignments
 
-```{r echo=FALSE}
+Follow the instructions for assignments [here](assignments.html)
+
+
+```{r echo=FALSE,warning=FALSE}
 render_assignments(localdata[["assignments"]])
 ```
+
 
 
 # Readings

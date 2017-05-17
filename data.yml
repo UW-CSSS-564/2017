@@ -1,16 +1,24 @@
 assignments:
   - name: "Assignment 1"
-    url: "https://github.com/UW-CSSS-564/CSSS5642017-assignment-1"
+    url: "https://github.com/UW-CSSS-564/assignment-2017-1"
     due-date: "2017-04-13 13:30"
   - name: "Assignment 2"
-    url: "https://github.com/UW-CSSS-564/assignment-2"
+    url: "https://github.com/UW-CSSS-564/assignment-2017-2"
     due-date: "2017-04-25 13:30"
   - name: "Assignment 3"
     url: "https://github.com/UW-CSSS-564/assignment-3"
-    due-date: "2017-04-25 13:30"
+    due-date: "2017-05-09 14:30"
   - name: "Assignment 4"
     url: "https://UW-CSSS-564.github.io/assignment-4"
-    due-date: "2017-04-25 13:30"
+    due-date: "2017-05-25 13:30"
+    peer_review: "2017-06-03 13:30"
+    self_corrections: "2017-06-09 17:00"
+  - name: "Assignment 5"
+    url: "https://UW-CSSS-564.github.io/assignment-5"
+    due-date: "2017-06-03 13:30"
+    peer_review: "None"
+    self_corrections: "2017-06-09 13:00"
+
 classes:
   - week: 1
     meetings:
@@ -128,6 +136,8 @@ classes:
       reading_after:
       - >
           [Accessing the contents of a stanfit object](https://cran.r-project.org/web/packages/rstan/vignettes/stanfit-objects.html)
+      - >
+          [Lab code](https://github.com/UW-CSSS-564/CSSS564-2017-lab)
     - start: "2017-04-20 13:30"
       end: "2017-04-20 14:20"
       type: lab
@@ -149,8 +159,15 @@ classes:
       end: "2017-04-27 15:50"
       type: class
       date: '2017-04-27'
-      reading_before: []
-      reading_after: []
+      reading_before:
+      - "\"Counting and Classification\", *Statistical Rethinking*, Ch 10."
+      - "\"Generalized Linear Models\", *BDA*, Ch 12."
+      reading_after:
+      - >
+          "Regression Models", [Stan Reference](https://github.com/stan-dev/stan/releases/download/v2.14.0/stan-reference-2.14.0.pdf)
+      - >
+          Gelman, Andrew. 2008. "A weakly informative default prior distribution for logistic and other regression models](https://projecteuclid.org/euclid.aoas/1231424214)"
+      - "Rainey, Carlisle. 2016. \"Dealing with Separation in Logistic Regression Models\""
       in_class: []
     - start: "2017-04-27 13:30"
       end: "2017-04-27 14:20"
@@ -160,22 +177,20 @@ classes:
       reading_after: []
       in_class: []
   - week: 6
+    topics: Shrinkage, Model Testing
     meetings:
     - start: "2017-05-02 14:30"
       end: "2017-05-02 15:50"
       type: class
       date: '2017-05-02'
-      reading_before:
-      - "\"Big Entropy and the Generalized Linear Model\", *Statistical Rethinking*, Ch 9."
-      - "\"Generalized Linear Models\", *BDA*, Ch 16."
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-05-04 14:30"
       end: "2017-05-04 15:50"
       type: class
       date: '2017-05-04'
-      reading_before:
-      - "\"Counting and Classification\", *Statistical Rethinking*, Ch 10."
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-05-04 13:30"
@@ -186,14 +201,13 @@ classes:
       reading_after: []
       in_class: []
   - week: 7
+    topics: Hierarchical Models
     meetings:
     - start: "2017-05-09 14:30"
       end: "2017-05-09 15:50"
       type: class
       date: '2017-05-09'
-      reading_before:
-      - "\"Monsters and Mixtures\", *Statistical Rethinking*, Ch 11."
-      - "\"Finite Mixture Models\", *BDA*, Ch 22"
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-05-11 14:30"
@@ -211,22 +225,20 @@ classes:
       reading_after: []
       in_class: []
   - week: 8
+    topics: Latent space models, IRT
     meetings:
     - start: "2017-05-16 14:30"
       end: "2017-05-16 15:50"
       type: class
       date: '2017-05-16'
-      reading_before:
-      - "\"Multilevel Models\", *Statistical Rethinking*, Ch 12."
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-05-18 14:30"
       end: "2017-05-18 15:50"
       type: class
       date: '2017-05-18'
-      reading_before:
-      - "\"Adventures in Covariance\", *Statistical Rethinking*, Ch 13."
-      - "\"Baussian Process Models\", *BDA*, Ch 22"
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-05-18 13:30"
@@ -237,14 +249,13 @@ classes:
       reading_after: []
       in_class: []
   - week: 9
+    topics: Bayesian time series
     meetings:
     - start: "2017-05-23 14:30"
       end: "2017-05-23 15:50"
       type: class
       date: '2017-05-23'
-      reading_before:
-      - "\"Missing Data and Other Opportunities\", *Statistical Rethinking*, Ch 14."
-      - "\"Models for Missing Data\", *BDA*, Ch 18."
+      reading_before: []
       reading_after: []
       in_class: []
     - start: "2017-05-25 14:30"
@@ -262,6 +273,7 @@ classes:
       reading_after: []
       in_class: []
   - week: 10
+    topics: TBA
     meetings:
     - start: "2017-05-30 14:30"
       end: "2017-05-30 15:50"

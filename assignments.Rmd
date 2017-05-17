@@ -2,6 +2,7 @@
 
 Submissions of all assignments should include both an R Markdown and a compiled HTML or PDF files.
 
+
 # Peer Review
 
 Each student will be assigned to review two assignments.
@@ -13,16 +14,14 @@ The comments should address the solution, code, and presentation:
 
 - Solutions:
 
-    - A key will be provided.
-    - The reviewer should check whether the reviewee's solutions are correct.
-    - Note incorrect or incomplete solutions, along with a suggestion of what the reviewee can do to fix it.
-      You don't need to solve it for them, but point out the problem, and point them in the right direction.
-    - Briefly note correct solutions.
-    - If you are unsure about a solution, note it clearly, and ask the instructors for assistance or the author for clarification.
+    - The reviewer should check whether the solutions are correct. A key will be provided.
+    - The reviewer should note incorrect or incomplete solutions, along with a suggestion of what they can do to fix it. The reviewer does not need to fix the problems, but they should provide indications of where the solution
+    - Note correct solutions.
+    - If you are unsure about a solution, note it clearly, and ask the instructors for assistance, or the author for clarification.
 
 - Code:
 
-    - Check that the code runs/compiles; in this class that means "does it knit?". It should run without editing, and produce the results 
+    - Check that the code runs/compiles; in this class that means "does it knit?". It should run without editing, and produce the results
       presented.
     - If any errors are encountered: include the exact error message as a code block in comments.
     - The code should be clearly written, formatted, and easy to follow.
@@ -42,7 +41,7 @@ Those will be totaled over all assignments to form your peer review mark.
 
 How to give good comments:
 
-- Address each question
+- Address questions that were answered incorrectly, unclearly, or particularly well.
 - Give thoughtful, constructive and considerate comments.
 - Be specific and concise.
 - Try to learn something new and, if you succeed, point that out.
@@ -78,8 +77,14 @@ Features of "needs more":
         - change label to "corrected"
     - After TA graded: close Pull Request
 
+
 # References
 
 Much of the section on suggestions for peer grading is derived from
 http://stat545.com/peer-review02_peer-evaluation-guidelines.html,
 licensed under the [CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)
+
+
+```{r}
+
+```
