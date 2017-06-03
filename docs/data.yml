@@ -267,7 +267,10 @@ classes:
       - "Robert Myles McDonnell, [Bayesian Ideal Points with Stan in R](https://rpubs.com/RobertMylesMc/Bayesian-IRT-ideal-points-with-Stan-in-R)"
       - "Rich Farouni. 2015. \"Fitting a Bayesian Factor Analysis Model in Stan\" [link](https://rfarouni.github.io/assets/projects/BayesianFactorAnalysis/BayesianFactorAnalysis.html)"
       reading_after: []
-      in_class: []
+      in_class:
+      - >
+        [Ideal point example](https://github.com/UW-CSSS-564/ideal-point).
+
     - start: "2017-05-25 14:30"
       end: "2017-05-25 15:50"
       type: class
@@ -280,7 +283,9 @@ classes:
         Also see the associated website for [Unified Democracy Scores](http://www.unified-democracy-scores.org/) and
         the subsequent [Varieties of Democracy](https://www.v-dem.net/en/) project.
       reading_after: []
-      in_class: []
+      in_class:
+      - >
+        Continue [ideal point example](https://github.com/UW-CSSS-564/ideal-point).
     - start: "2017-05-25 13:30"
       end: "2017-05-25 14:20"
       type: lab
@@ -305,7 +310,8 @@ classes:
       - >
         Jackman. 2005. "Pooling the Polls over an Election Campaign" [doi:10.1080/1036114050030247](https://dx.doi.org/10.1080/1036114050030247)
       reading_after: []
-      in_class: []
+      in_class:
+      - NO CLASS
     - start: "2017-06-01 14:30"
       end: "2017-06-01 15:50"
       type: class
@@ -318,7 +324,8 @@ classes:
       - >
         [Human Rights Scores website](http://humanrightsscores.org/) and [replication materials](https://dataverse.harvard.edu/dataverse.xhtml?alias=HumanRightsScores)
       reading_after:
-      in_class: []
+      in_class:
+      - Work through [polling data example](https://github.com/UW-CSSS-564/us-election-2016).
     - start: "2017-06-01 13:30"
       end: "2017-06-01 14:20"
       type: lab
