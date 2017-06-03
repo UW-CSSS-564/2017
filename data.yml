@@ -13,11 +13,6 @@ assignments:
     due-date: "2017-05-25 13:30"
     peer_review: "2017-06-03 13:30"
     self_corrections: "2017-06-09 17:00"
-  - name: "Assignment 5"
-    url: "https://UW-CSSS-564.github.io/assignment-2017-5"
-    due-date: "2017-06-03 13:30"
-    peer_review: "None"
-    self_corrections: "2017-06-09 13:00"
 
 classes:
   - week: 1
