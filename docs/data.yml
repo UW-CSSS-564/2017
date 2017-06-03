@@ -202,7 +202,11 @@ classes:
       end: "2017-05-09 15:50"
       type: class
       date: '2017-05-09'
-      reading_before: []
+      reading_before:
+      - >
+        *Statistical Rethinking* Ch 12. "Multilevel Models"
+      - >
+        *Statistical Rethinking* Ch 13. "Adventures in Covariance"
       reading_after: []
       in_class: []
     - start: "2017-05-11 14:30"
@@ -220,7 +224,7 @@ classes:
       reading_after: []
       in_class: []
   - week: 8
-    topics: Latent space models, IRT
+    topics: Hierarchical Models
     meetings:
     - start: "2017-05-16 14:30"
       end: "2017-05-16 15:50"
@@ -244,20 +248,37 @@ classes:
       reading_after: []
       in_class: []
   - week: 9
-    topics: Bayesian time series
+    topics:
     meetings:
     - start: "2017-05-23 14:30"
       end: "2017-05-23 15:50"
       type: class
       date: '2017-05-23'
-      reading_before: []
+      reading_before:
+      - >
+        *Statistical Rethinking* Ch 14. "Missing Data"
+      - >
+        Clinton, Jackman, and Rivers. 2004. "The Statistical Analysis of Roll Call Data" *American Political Science Review*.
+        [doi:10.1017/S0003055404001194](https://doi.org/10.1017/S0003055404001194).
+      - >
+        Clinton, Jackman, and Rivers. 2001. \"Multidimensional Analysis of Roll Call Data via Bayesian Simulation: Identification, Estimation, Inference, and Model Checking\"
+      - >
+        Bafumi, Gelman, Park, and Kaplan. 2005. "Practical Issues in Implementing and Understanding Bayesian Ideal Point Estimation" *Political Analysis* [10.1093/pan/mpi010](https://dx.doi.org/10.1093/pan/mpi010).
+      - "Robert Myles McDonnell, [Bayesian Ideal Points with Stan in R](https://rpubs.com/RobertMylesMc/Bayesian-IRT-ideal-points-with-Stan-in-R)"
+      - "Rich Farouni. 2015. \"Fitting a Bayesian Factor Analysis Model in Stan\" [link](https://rfarouni.github.io/assets/projects/BayesianFactorAnalysis/BayesianFactorAnalysis.html)"
       reading_after: []
       in_class: []
     - start: "2017-05-25 14:30"
       end: "2017-05-25 15:50"
       type: class
       date: '2017-05-25'
-      reading_before: []
+      reading_before:
+      - >
+        Treier and Jackman. 2004. "Democracy as a Latent Variable." *American Journal of Political Science* [doi:10.1111/j.1540-5907.2007.00308.x]http://onlinelibrary.wiley.com/doi/10.1111/j.1540-5907.2007.00308.x](https://dx.doi.org/10.1111/j.1540-5907.2007.00308.x)
+      - >
+        Pemstein. Meserve, and Melton. 2010. "Democratic Compromise: A Latent Variable Analysis of Ten Measures of Regime Type" *Political Analysis* [doi:10.1093/pan/mpq020](https://doi.org/10.1093/pan/mpq020).
+        Also see the associated website for [Unified Democracy Scores](http://www.unified-democracy-scores.org/) and
+        the subsequent [Varieties of Democracy](https://www.v-dem.net/en/) project.
       reading_after: []
       in_class: []
     - start: "2017-05-25 13:30"
@@ -268,13 +289,21 @@ classes:
       reading_after: []
       in_class: []
   - week: 10
-    topics: TBA
+    topics: Bayesian time series
     meetings:
     - start: "2017-05-30 14:30"
       end: "2017-05-30 15:50"
       type: class
       date: '2017-05-30'
-      reading_before: []
+      reading_before:
+      - >
+        West. 2013. "Bayesian Dynamic Modeling" [PDF](http://ftp.stat.duke.edu/WorkingPapers/11-19.pdf)
+      - >
+        Dynamic Bayesian Forecasting of Presidential Elections in the States
+      - >
+        Pierre-Antoine Kremp. "State and National Poll Aggregation" [URL](http://www.slate.com/features/pkremp_forecast/report.html) and [GitHub](https://github.com/pkremp/polls).
+      - >
+        Jackman. 2005. "Pooling the Polls over an Election Campaign" [doi:10.1080/1036114050030247](https://dx.doi.org/10.1080/1036114050030247)
       reading_after: []
       in_class: []
     - start: "2017-06-01 14:30"
@@ -282,8 +311,13 @@ classes:
       type: class
       date: '2017-06-01'
       reading_before:
-       - "\"Horoscopes\", *Statistical Rethinking*, Ch 15."
-      reading_after: []
+      - >
+        Fariss. 2014. "Respect for Human Rights has Improved Over Time: Modeling the Changing Standard of Accountability" *American Political Science Review*
+      - >
+        Schnakenberg and Fariss. 2014. "Dynamic Patterns of Human Rights Practices" *Political Science Research and Methods*
+      - >
+        [Human Rights Scores website](http://humanrightsscores.org/) and [replication materials](https://dataverse.harvard.edu/dataverse.xhtml?alias=HumanRightsScores)
+      reading_after:
       in_class: []
     - start: "2017-06-01 13:30"
       end: "2017-06-01 14:20"
